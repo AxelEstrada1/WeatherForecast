@@ -9,7 +9,6 @@ function getWeather(q) {
     let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + q + "&units=imperial&appid=" + APIKey;
     
     $.ajax({
-        // weather information
         url: queryURL,
         method: "GET",
         error: (err => { 
@@ -31,7 +30,6 @@ function getForecast(lat , lon) {
     let queryURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${APIKey}`
     
     $.ajax({
-        // weather info
         url: queryURL,
         method: "GET",
         error: (err => { 

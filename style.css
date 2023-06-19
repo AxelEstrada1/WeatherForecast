@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(12, 150, 178);
+}
+
+.nav-bar {
+    text-align: center;
+    background-color: rgb(12, 150, 178);
+    border-bottom: solid;
+    border-bottom-color: #220523;
+    border-bottom-width: 10px;
+}
+
+.row {
+    text-align: center;
+}
